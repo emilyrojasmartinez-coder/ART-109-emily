@@ -2,30 +2,76 @@
  Oil #322619
  Sorrell Brown #C5A683
  Sage #8E9B83
- Mamba #8B8094 */
+ Mamba #8B8094 
+ Gray Asparagus #444E46
+ Mongoose #BFA780
+ Gumbo #7BA0A8
+ Gull Grey #98B6B8
+ */
  
  /* GOLOBAL STYELS */
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
+html, body{
+    height: 100%;
+}
 body {
     background-color:#F5F2EB; /* light shade of grey*/
 }
 a {color: #8E9B83;}
 a:hover {
-    color:#C5A683; 
+    color:#98B6B8; 
 } 
-
+.content-wrap {
+margin: 0 auto;
+max-width: 900px;
+padding: 30px; 
+}
  /* HOME */
 .home { 
-    background: url(../images/euro-cafe.jpg) no-repeat;
+    background: url(../images/palm-trees.jpg) no-repeat;
     background-size: cover ;
 }
 .home .content-wrap {
     background-color:  #f5f2eb;
 }
  /* RESUME */
-
+.resume header::before  {
+    background: url(../images/palm-trees.jpg) center;
+    background-size: cover;
+    content: "hello";
+    display: block;
+    height: 375px;
+}
+.resume-section { 
+    margin-bottom: 50px;
+}
+.resume-section h2 {
+border-bottom: 2px dashed #322619;
+}
+.download-pdf{
+     position: fixed;
+     top: 10px;
+     bottom: 10px;
+}
  /* Profile */
-
+ .project-item {
+    display: flow-root;
+    margin: 30px 0;
+ }
+.project-item img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
  /* Projects */
 
  /* Work Experiance */
@@ -36,4 +82,16 @@ a:hover {
  
 footer {
     background-color: #F5F2EB;
+    color: #8B8094
+}
+.socials {
+    list-style: none;
+    padding: 0;
+} 
+.socials li{
+    display: inline-block;
+}
+.socials img{
+    width: 32px;
+
 }
