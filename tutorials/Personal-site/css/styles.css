@@ -1,0 +1,39 @@
+ /*  COLOR PALLET
+ Oil #322619
+ Sorrell Brown #C5A683
+ Sage #8E9B83
+ Mamba #8B8094 */
+ 
+ /* GOLOBAL STYELS */
+
+body {
+    background-color:#F5F2EB; /* light shade of grey*/
+}
+a {color: #8E9B83;}
+a:hover {
+    color:#C5A683; 
+} 
+
+ /* HOME */
+.home { 
+    background: url(../images/euro-cafe.jpg) no-repeat;
+    background-size: cover ;
+}
+.home .content-wrap {
+    background-color:  #f5f2eb;
+}
+ /* RESUME */
+
+ /* Profile */
+
+ /* Projects */
+
+ /* Work Experiance */
+
+ /* Education */
+
+/* FOOTER */
+ 
+footer {
+    background-color: #F5F2EB;
+}
