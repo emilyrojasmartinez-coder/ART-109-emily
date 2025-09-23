@@ -39,15 +39,22 @@ padding: 30px;
 .home { 
     background: url(../images/palm-trees.jpg) no-repeat;
     background-size: cover ;
+    display: flex;
+    flex-direction: column;
 }
 .home .content-wrap {
-    background-color:  #f5f2eb;
+
+     flex: 1 0 auto;
+}
+.content-bg { 
+         background-color:  #f5f2eb;
+          opacity: 0.8;
 }
  /* RESUME */
 .resume header::before  {
     background: url(../images/palm-trees.jpg) center;
     background-size: cover;
-    content: "hello";
+    content: "";
     display: block;
     height: 375px;
 }
@@ -82,7 +89,10 @@ border-bottom: 2px dashed #322619;
  
 footer {
     background-color: #F5F2EB;
-    color: #8B8094
+    color: #8B8094;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 .socials {
     list-style: none;
@@ -90,8 +100,12 @@ footer {
 } 
 .socials li{
     display: inline-block;
+    margin-left:  10px;
 }
 .socials img{
     width: 32px;
 
+}
+.socials img:hover { 
+ opacity: 0.5;
 }
