@@ -82,7 +82,11 @@ border-bottom: 2px dashed #322619;
  /* Projects */
 
  /* Work Experiance */
-
+ .work-item{
+     display: grid;
+     grid-template-columns: 320px 2fr; ]
+    column-gap: 20px ;
+ }
  /* Education */
 
 /* FOOTER */
