@@ -35,7 +35,7 @@ https://www.paulirish.com/2012/box-sizing-border-box-ftw/
 
  header {
      padding: 50px;
-     background-color: rgb(214, 173, 255);
+     background-color: rgb(255, 0, 0);
      text-align: center;
  }
 
@@ -44,6 +44,7 @@ https://www.paulirish.com/2012/box-sizing-border-box-ftw/
      margin: 50px auto;
  }
 
- p {
-     margin-top: 20px;
- }
+.image-div{
+    display: inline-block;
+
+}

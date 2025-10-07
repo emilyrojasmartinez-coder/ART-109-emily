@@ -1,0 +1,227 @@
+ /*
+CSS RESETS:
+ Border box reset:
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ 62.5% Fix: https: //www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/
+*/
+ /* color pallet
+Cameo
+#e0c2ac
+Alizarin Crimson
+#d51c2f
+#9eb02f
+Thatch Green
+#49511c 
+*/
+
+ /*body */
+ .mhgu-quest-complete2 {
+     border-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABKklEQVRYR+2Y2xFCIQxEpQ8LsAxLtwwLsA8dncGPODsnxNwrjOEX2CxLeGTb5Xi6H75o59u1PacrHOr3hm7LEY2unOZRv1LUznsrmgVoA2fhSqI9gA1sU4WIqH7CdytKQH0B0xDtCnqVseP7gmgnLP6wotMTpUOhFFA5TYpRPPepp0CU0zR/mCi9FJSDpLSar+L28R+KTk+UCKqtoZyke9gbN/zWe3Myjah3Rb8e9/qirdCKaPYulaKlaLYC2XiVo6VotgLZeJWj6YpGLZ3dv3nLEVUKeX/wqqy2uP9TM41aM1RtKockagXtVtdT3U796OZNb+l4nQ3vYdncJKNydzS3bY7SrSKdEro+SBnKtXSi3icwqijhu/1RAopeM1HcsKWzNVG7oGWIPgDNYlCdnfuUhQAAAABJRU5ErkJggg==') 14 / 14px / 0 round;
+     border-width: 14px;
+     border-style: solid;
+     padding: 10px;
+ }
+
+
+
+ html {
+     box-sizing: border-box;
+     font-size: 62.5%;
+ }
+
+
+ *:before,
+ *:after {
+     box-sizing: inherit;
+     margin: 0;
+     padding: 0;
+ }
+
+
+ html,
+ body {
+     height: 100%;
+     font-size: 1.6rem;
+     /* font-size 1.6rem is now the same as 16px */
+     line-height: 1.6;
+ }
+
+ .windows {
+     border-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAAAdlJREFUeF7t3dFOg0AYBWH6/g+t0XjRUsJ0wt+U4Hh7Dlv4dgtbjXpbluVr6WtM4BbomOXvQIHOegY67LkJ+rNqr/S1fkZMX9/D+Ftv+ekX/PTkBDo8A4EGOiwwPByt0NG8e+jzB5v1M0SBBxqoviGoFfb3Yef+RdTxrdDn+SHA9RHtQ2GNB/pOoI1bQCt0JUCfBFuhB1coAaq8h1LbprZNWmD4APWWbR/K+gTKI+w32oceFVwdH2igxwRO95bv5/ZiQl/ZhwYaqBAYrrZCTwBK31wYPsWPD0cPNb1togE/fsVvPgG6/kDlBAQqwageKAnJPFAJRvVASUjmgUowqgdKQjIPVIJRPVASknmgEozqgZKQzAOVYFQPlIRkHqgEo3qgJCTzQCUY1QMlIZkHKsGoHigJyTxQCUb1QElI5oFKMKoHSkIyD1SCUT1QEpJ5oBKM6oGSkMwDlWBUD5SEZB6oBKN6oCQk80AlGNUDJSGZByrBqB4oCck8UAlG9UBJSOaBSjCqB0pCMg9UglE9UBKSeaASjOpvB6UTuHq+++cw+21kP/2BerPdIwI9G+jw+VxuuIeH1iv30MsJDF9QoIEOCwwPhyt0+PX+13D9+5/h+Q400GGB4eG+AevyJBCQhO7MAAAAAElFTkSuQmCC') 28 / 28px / 0 round;
+     border-width: 28px;
+     border-style: solid;
+     padding: 15px;
+ }
+
+
+ h1,
+ h2,
+ h3,
+ p {
+     font-family: "Oswald", sans-serif;
+     font-weight: 100;
+     font-style: normal;
+ }
+
+ h1 {
+     font-size: 5rem;
+ }
+
+ h2 {
+     font-size: 3.6rem;
+ }
+
+ h3 {
+     font-size: 2.4rem;
+ }
+
+ header {
+     padding: 25px;
+     background-color: #d51c2f;
+     text-align: center;
+     font-size: large;
+ }
+
+ header:hover {
+     background-color: #49511c;
+ }
+
+ h1 {
+     text-transform: capitalize;
+ }
+
+
+ main {
+     max-width: 1000px;
+     margin: 80px auto;
+     padding: 80px;
+ }
+
+ /*   BUTTONS. */
+ .button-div {
+     text-align: center;
+     margin: 75px auto;
+ }
+
+ button {
+     background-color: #d51c2f;
+     color: rgb(255, 255, 255);
+     padding: 15px;
+     border-radius: 10px;
+     text-decoration: none;
+     text-align: center;
+     transform: scale(1);
+ }
+
+ .button {
+     background-color: #d51c2f;
+     color: rgb(255, 255, 255);
+     padding: 15px;
+     border-radius: 10px;
+     text-decoration: none;
+     display: inline-block;
+ }
+
+ .button:hover {
+     background-color: #49511c;
+     transform: scale(1.3);
+ }
+
+ .button1-div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 15px auto;
+     transform: scale(1);
+ }
+
+ .button2-div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 15px auto;
+     transform: scale(1);
+     background-color: #9eb02f;
+ }
+
+
+ .button3-div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 15px auto;
+     transform: scale(1);
+ }
+
+
+ .button4-div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 15px auto;
+     transform: scale(1);
+     background-color: #9eb02f;
+ }
+
+
+
+ .button5-div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 15px auto;
+     transform: scale(1);
+ }
+
+
+
+ .button6-div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 15px auto;
+     transform: scale(1);
+     background-color: #9eb02f;
+ }
+
+
+ .button7-div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 15px auto;
+     transform: scale(1);
+ }
+
+ .button8-div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 15px auto;
+     transform: scale(1);
+     background-color: #9eb02f;
+ }
+
+
+
+ img {
+     justify-content: center;
+     align-items: center;
+     margin: 20px auto;
+     border-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAAAdlJREFUeF7t3dFOg0AYBWH6/g+t0XjRUsJ0wt+U4Hh7Dlv4dgtbjXpbluVr6WtM4BbomOXvQIHOegY67LkJ+rNqr/S1fkZMX9/D+Ftv+ekX/PTkBDo8A4EGOiwwPByt0NG8e+jzB5v1M0SBBxqoviGoFfb3Yef+RdTxrdDn+SHA9RHtQ2GNB/pOoI1bQCt0JUCfBFuhB1coAaq8h1LbprZNWmD4APWWbR/K+gTKI+w32oceFVwdH2igxwRO95bv5/ZiQl/ZhwYaqBAYrrZCTwBK31wYPsWPD0cPNb1togE/fsVvPgG6/kDlBAQqwageKAnJPFAJRvVASUjmgUowqgdKQjIPVIJRPVASknmgEozqgZKQzAOVYFQPlIRkHqgEo3qgJCTzQCUY1QMlIZkHKsGoHigJyTxQCUb1QElI5oFKMKoHSkIyD1SCUT1QEpJ5oBKM6oGSkMwDlWBUD5SEZB6oBKN6oCQk80AlGNUDJSGZByrBqB4oCck8UAlG9UBJSOaBSjCqB0pCMg9UglE9UBKSeaASjOpvB6UTuHq+++cw+21kP/2BerPdIwI9G+jw+VxuuIeH1iv30MsJDF9QoIEOCwwPhyt0+PX+13D9+5/h+Q400GGB4eG+AevyJBCQhO7MAAAAAElFTkSuQmCC') 28 / 28px / 0 round;
+     border-width: 28px;
+     border-style: solid;
+     padding: 15px;
+     background-color: #9eb02f;
+ }
+
+
+
+ main {
+     background-color: antiquewhite;
+ }
+
+ body {
+     background-color: lightpink;
+
+ }
