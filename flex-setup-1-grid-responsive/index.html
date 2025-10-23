@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basic Flex Setup</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <header>
+      <h1>Basic Flex Setup</h1>
+      <h2>Grid on browsers, column on mobile</h2>
+    </header>
+    <main>
+      <section>
+        <p>And this is the basic flex setup!
+        </p>
+        <pre>
+          - body
+             > content-wrapper
+               - header
+               - main
+                   - section
+                   - section
+                   - section
+            > footer
+        </pre>
+        <p>
+         This demo has a media query that sets a column layout for mobile. The default is a flex grid. The flex container MAIN is set to be a row that wraps. Each SECTION item starts with a fixed width of 200px. You can customize these for each section. </p>
+      </section>
+      <section>
+        <img src="assets/images/catComputer_2.jpg" alt="">
+        <p>Note that the images will scale up and down to the max width of the section, so you want to make sure your
+          image resolution is as least as wide as your section width.
+        </p>
+      </section>
+         <section>
+        <img src="assets/images/catComputer_1.png" alt="">
+      
+      </section>
+         <section>
+        <img src="assets/images/catComputer_1.png" alt="">
+      
+      </section>
+         <section>
+        <img src="assets/images/catComputer_1.png" alt="">
+      
+      </section>
+      <section>
+        <img src="assets/images/catComputer_1.png" alt="">
+      
+      </section>
+    </main>
+  </div>
+  <!-- //  FOOTER INFO, SOCIAL MEDIA  // -->
+  <footer>
+    <p>© 2023 by Your Name | <a href="mailto:email@example.com">email@example.com</a></p>
+    <ul class="socials">
+      <li>
+        <a href="#" target="_blank"><img src="assets/images/icon-logo-instagram.png" alt=""></a>
+      </li>
+      <li>
+        <a href="#" target="_blank"><img src="assets/images/icon-logo-facebook.png" alt=""></a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>

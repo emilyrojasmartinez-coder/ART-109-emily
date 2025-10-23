@@ -1,25 +1,39 @@
 
-document.querySelector("#img1").addEventListener("click", function(){
-    document.querySelector("#img1").style.visibility = "hidden";})
 
-document.querySelector("#img2").addEventListener("click", function(){
-    document.querySelector("#img2").style.visibility = "hidden";})
 
-document.querySelector("#img3").addEventListener("click", function(){
-    document.querySelector("#img3").style.visibility = "hidden";})
+    function setup(){
+        creativeCanvas(400, 400, WEBGL)
+        angleMode( DEGREES)
+        background(black)
+    }
 
-document.querySelector("#img4").addEventListener("click", function(){
-    document.querySelector("#img4").style.visibility = "hidden";})
 
-document.querySelector("#img5").addEventListener("click", function(){
-    document.querySelector("#img5").style.visibility = "hidden";})
+function draw(){
+ background(30)
+ rotateX(60)
+ nofill()
+ stroke(255)
 
-document.querySelector("#img6").addEventListener("click", function(){
-    document.querySelector("#img6").style.visibility = "hidden";})
+ for (var i = 0; i < 50; i++){
+    var r = map(sin(framCount / 2), -1, 1, 0, 255)
+    var g = map(i, 0, 50, 100, 200 )
+    var b = map(cos( frameCount), -1, 1, 200, 100 )
 
-document.querySelector("#img7").addEventListener("click", function(){
-    document.querySelector("#img7").style.visibility = "hidden";})
+stroke(r , b, g )
 
-document.querySelector("#img8").addEventListener("click", function(){
-    document.querySelector("#img8").style.visibility = "hidden";})
-    
+
+beginShape()
+for (var j = 0; j < 360; j += 10) {
+var rad = i * 3
+var x = rad * cos(j)
+var y = rad * sin(j)
+var z = sin(frameCount * 2 + i * 5) * 50
+
+vertex( x, y, z)
+
+}
+endShape(CLOSE)
+
+ }
+
+}

@@ -205,6 +205,7 @@ Thatch Green
 
 
  img {
+    size-adjust: 400px;
      justify-content: center;
      align-items: center;
      margin: 20px auto;

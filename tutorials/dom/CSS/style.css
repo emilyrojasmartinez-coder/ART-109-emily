@@ -34,8 +34,12 @@ https://www.paulirish.com/2012/box-sizing-border-box-ftw/
  }
 
  header {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+border-radius: 45px;
      padding: 50px;
-     background-color: rgb(255, 0, 0);
+     background-color: pink;
      text-align: center;
  }
 
