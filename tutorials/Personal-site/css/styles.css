@@ -144,9 +144,11 @@
  }
 
  h3 {
-     font-size: 2.4rem;
+     font-size: 4rem;
  }
-
+p{
+    font-size: 5rem;
+}
 
  a {
      color: #8E9B83;
