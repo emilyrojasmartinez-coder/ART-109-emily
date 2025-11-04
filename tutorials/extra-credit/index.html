@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+    <title>Pixes</title>
+</head>
+
+<body>
+
+    <a-scene>
+        <a-asset>
+            <img id="myimg" src="images/pixie_tree.webp" alt="pixie tree">
+        </a-asset>
+        <a-asset>
+            <img id="myimg1" src="images/pixies.webp" alt="pixie tree">
+        </a-asset>
+        <a-asset>
+            <img id="myimg2" src="images/queenclarion.webp" alt="pixie tree">
+        </a-asset>
+        <a-asset>
+            <img id="myimg3" src="images/theborder.jpg" alt="pixie tree">
+        </a-asset>
+        <a-asset>
+            <img id="myimg4" src="images/tink.jpg" alt="pixie tree">
+        </a-asset>
+          <a-asset>
+            <img id="myimg5" src="images/pixietree.jpg" alt="pixie tree">
+        </a-asset>
+        <a-box position="0 4 -3" rotation="0 45 0" material="src: #myimg4;"></a-box>
+        <a-box position="0 2 1" rotation="0 360 0" material="src: #myimg1;"></a-box>
+ <a-sphere position="4 2.25 -4" radius="1.25" rotation= " 180 " material="src: #myimg2;"></a-sphere>
+
+        <a-plane position="-2 0 -4" rotation="0 45 0" width="4" height="4" material="src: #myimg3;"></a-plane>
+        <a-plane position="2 0 -4" rotation="-90 0 0" width="4" height="4" material="src: #myimg;"></a-plane>
+        <a-sky color="#001B3A
+"></a-sky>
+    </a-scene>
+
+</body>
+
+</html>
