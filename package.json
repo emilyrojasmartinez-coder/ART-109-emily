@@ -1,5 +1,28 @@
 {
+  "name": "ver",
+  "version": "1.0.0",
+  "description": "node tut",
+  "keywords": [
+    "sockets",
+    "p5.js"
+  ],
+  "homepage": "https://github.com/emilyrojasmartinez-coder/ART-109-emily#readme",
+  "bugs": {
+    "url": "https://github.com/emilyrojasmartinez-coder/ART-109-emily/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyrojasmartinez-coder/ART-109-emily.git"
+  },
+  "license": "ISC",
+  "author": "Emily Rojas-Martinez",
+  "type": "$npm install express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "cowsay": "^1.6.0"
-  }
+  },
+  "devDependencies": {}
 }
