@@ -85,6 +85,7 @@ img, iframe {
     width: auto;
     max-width: 100%;
     height: auto;
+    box-shadow: 0 13px 18px black;
 }
 
 
@@ -126,11 +127,10 @@ main {
 
 section {
     flex: 0 1 300px;
-    background-color: rgb(180, 189, 170);
+   /* background-color: rgb(180, 189, 170); */
     padding: 2rem;
     /* add margin if you don't want to use gap in flex container (main) */
 }
-
 
 /* media queries
 ------------------------------ 
