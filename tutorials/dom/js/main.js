@@ -1,38 +1,38 @@
 
-
+console.log ("hello");
 
     function setup(){
-        creativeCanvas(400, 400, WEBGL)
-        angleMode( DEGREES)
-        background(black)
+        creativeCanvas(400, 400, WEBGL);
+        angleMode( DEGREES);
+        background(black);
     }
 
 
 function draw(){
- background(30)
- rotateX(60)
- nofill()
- stroke(255)
+ background(30);
+ rotateX(60);
+ nofill();
+ stroke(255);
 
  for (var i = 0; i < 50; i++){
-    var r = map(sin(framCount / 2), -1, 1, 0, 255)
-    var g = map(i, 0, 50, 100, 200 )
-    var b = map(cos( frameCount), -1, 1, 200, 100 )
+    var r = map(sin(framCount / 2), -1, 1, 0, 255);
+    var g = map(i, 0, 50, 100, 200 );
+    var b = map(cos( frameCount), -1, 1, 200, 100 );
 
-stroke(r , b, g )
+stroke(r , b, g );
 
 
 beginShape()
 for (var j = 0; j < 360; j += 10) {
-var rad = i * 3
-var x = rad * cos(j)
-var y = rad * sin(j)
-var z = sin(frameCount * 2 + i * 5) * 50
+var rad = i * 3;
+var x = rad * cos(j);
+var y = rad * sin(j);
+var z = sin(frameCount * 2 + i * 5) * 50;
 
-vertex( x, y, z)
+vertex( x, y, z);
 
 }
-endShape(CLOSE)
+endShape(CLOSE);
 
  }
 
