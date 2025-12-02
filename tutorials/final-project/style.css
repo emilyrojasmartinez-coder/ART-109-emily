@@ -53,4 +53,5 @@ nav p {
     transform-style: preserve-3d;
     backface-visibility: hidden;
     user-select: none;
+    color: white;
 }
