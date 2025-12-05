@@ -1,5 +1,13 @@
 // tut- https://www.youtube.com/watch?v=fo0aYLSrcz8&list=WL&index=1
 //used copilet to help with spelling errors for syntax
+     document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        });
 
 const data = [
 
