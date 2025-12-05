@@ -121,6 +121,19 @@ nav a {
     border-radius: 4px;
     /* Optional: rounded corners */
 }
+ .menu-toggle {
+     display: none;
+     flex-direction: column;
+     cursor: pointer;
+ }
+
+ .menu-toggle .bar {
+     background-color: #fff;
+     height: 3px;
+     width: 25px;
+     margin: 5px;
+ }
+
  @media (max-width: 768px) {
      .nav-links {
          display: none;
@@ -129,7 +142,7 @@ nav a {
          position: absolute;
          top: 60px;
          left: 0;
-         background-color: #322619;
+         background-color:  #D2D2C8;
          /* Green background for mobile view */
      }
 
