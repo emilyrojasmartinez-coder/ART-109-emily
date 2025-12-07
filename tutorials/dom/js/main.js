@@ -1,39 +1,43 @@
 
-console.log ("hello");
+console.log("hello");
 
-    function setup(){
-        creativeCanvas(400, 400, WEBGL);
-        angleMode( DEGREES);
-        background(black);
-    }
-
-
-function draw(){
- background(30);
- rotateX(60);
- nofill();
- stroke(255);
-
- for (var i = 0; i < 50; i++){
-    var r = map(sin(framCount / 2), -1, 1, 0, 255);
-    var g = map(i, 0, 50, 100, 200 );
-    var b = map(cos( frameCount), -1, 1, 200, 100 );
-
-stroke(r , b, g );
-
-
-beginShape()
-for (var j = 0; j < 360; j += 10) {
-var rad = i * 3;
-var x = rad * cos(j);
-var y = rad * sin(j);
-var z = sin(frameCount * 2 + i * 5) * 50;
-
-vertex( x, y, z);
-
+document.querySelector("#img1").addEventListener("click", function () {
+    document.querySelector("#img1").style.visibility = "hidden";
 }
-endShape(CLOSE);
-
- }
-
+)
+document.querySelector("#img2").addEventListener("click", function () {
+    document.querySelector("#img2").style.visibility = "hidden";
 }
+)
+document.querySelector("#img3").addEventListener("click", function () {
+    document.querySelector("#img3").style.visibility = "hidden";
+}
+)
+document.querySelector("#img4").addEventListener("click", function () {
+    document.querySelector("#img4").style.visibility = "hidden";
+}
+)
+document.querySelector("#img5").addEventListener("click", function () {
+    document.querySelector("#img5").style.visibility = "hidden";
+}
+)
+
+
+
+
+
+
+
+
+
+/*
+setTimeout(function(){
+    document.querySelector("#page-title").style.color = "blue"; 
+ console.log ("timer worked");
+}, 3000)
+
+
+document.querySelector("header").onclick = function(){
+    console.log ("click header")
+    document.querySelector("body").style.backgroundColor = "red";
+} */

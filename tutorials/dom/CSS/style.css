@@ -43,12 +43,11 @@ border-radius: 45px;
      text-align: center;
  }
 
- main {
-     max-width: 800px;
-     margin: 50px auto;
- }
+img{
+    max-width: 320px;
+}
 
-.image-div{
+.img-div{
     display: inline-block;
 
 }
