@@ -12,28 +12,61 @@ body {
     overflow: hidden;
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    padding: 2em;
-    display: flex;
-    justify-content: center;
-    z-index: 2;
-}
-
-nav a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: "bd-retrocentric", sans-serif;
+h2, p {
+    font-family: "Kedebideri", sans-serif;
     font-weight: 400;
-    font-size: 12 px;
+    font-style: normal;
     padding: 4px;
-    border-radius: 4px;
-
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+/* Logo + name */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* space between logo + name */
+}
+
+.logo img {
+  height: 40px;   /* adjust as needed */
+  width: auto;
+}
+
+/* The name next to the logo */
+.site-name {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "bd-retrocentric", sans-serif;
+  font-weight: 400;
+  font-size: 14px; /* FIX: remove the space in "12 px" */
+  color: white;
+  letter-spacing: 1px;
+}
+
+/* Menu */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+
+
+
+.header h2, p {
+  color: #fff;
+}
 .logo img {
     height: 50px;     /* adjust as needed */
     width: auto;
@@ -51,12 +84,16 @@ nav a {
 }
 
 .nav-links a {
-
+ font-family: "bd-retrocentric", sans-serif;
+  font-weight: 400;
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s, text-decoration 0.3s, background-color 0.3s;
+    font-size: 14px;
+    transition: color 0.3s,
+    text-decoration 0.3s, 
+    background-color 0.3s;
     padding: 5px 10px;
+     border-radius: 4px;
 
 }
 

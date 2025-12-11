@@ -18,7 +18,7 @@ html, body {
   background-color: #BBB6A5;
 }
 main {
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 80px auto;
     padding: 80px;
 }
@@ -53,51 +53,63 @@ p {
     padding: 4px;
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    padding: 2em;
-    display: flex;
-    justify-content: center;
-    z-index: 2;
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
 }
 
-nav p {
-    text-transform: uppercase;
-    font-family: "bd-retrocentric", sans-serif;
-    font-weight: 400;
-    font-size: 12 px;
-    padding: 4px;
-    background-color: #D2D2C8;
+/* Logo + name */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* space between logo + name */
 }
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    padding: 2em;
-    display: flex;
-    justify-content: center;
-    z-index: 2;
+
+.logo img {
+  height: 40px;   /* adjust as needed */
+  width: auto;
 }
-.logo a img {
-    height: 10px;     /* adjust as needed */
+
+/* The name next to the logo */
+.site-name {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "bd-retrocentric", sans-serif;
+  font-weight: 400;
+  font-size: 14px; /* FIX: remove the space in "12 px" */
+  color: white;
+
+
+
+  letter-spacing: 1px;
+}
+
+/* Menu */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+
+
+
+.header h2, .header {
+  color: #fff;
+}
+.logo img {
+    height: 50px;     /* adjust as needed */
     width: auto;
     display: block;
 }
-nav a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: "bd-retrocentric", sans-serif;
-    font-weight: 400;
-    font-size: 12 px;
-    padding: 4px;
-    border-radius: 4px;
-
-}
-
 
 /* Navigation links styling */
 .nav-links {
@@ -110,12 +122,16 @@ nav a {
 }
 
 .nav-links a {
-
+ font-family: "bd-retrocentric", sans-serif;
+  font-weight: 400;
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s, text-decoration 0.3s, background-color 0.3s;
+    font-size: 14px;
+    transition: color 0.3s,
+    text-decoration 0.3s, 
+    background-color 0.3s;
     padding: 5px 10px;
+     border-radius: 4px;
 
 }
 
@@ -183,10 +199,7 @@ nav a {
  .resume-section h2 {
      border-bottom: 2px dashed #322619;
  }
-img{
-    padding: 20px;
-    max-width: 500px;
-}
+
 @media screen and (max-width:500px) {
      .resume header::before {
          height: 200px;
@@ -206,8 +219,9 @@ img{
      margin: 30px 0;
  }
 
- .project-item img {
-     width: 300px;
+ .project-item img{
+     width: 500px;
+     height: auto;
  }
 
  @media screen and (min-width:860px) {
