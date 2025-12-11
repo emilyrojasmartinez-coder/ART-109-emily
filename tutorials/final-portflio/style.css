@@ -82,7 +82,11 @@ nav {
     justify-content: center;
     z-index: 2;
 }
-
+.logo a img {
+    height: 10px;     /* adjust as needed */
+    width: auto;
+    display: block;
+}
 nav a {
     text-decoration: none;
     text-transform: uppercase;

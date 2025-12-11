@@ -34,6 +34,11 @@ nav a {
 
 }
 
+.logo img {
+    height: 50px;     /* adjust as needed */
+    width: auto;
+    display: block;
+}
 
 /* Navigation links styling */
 .nav-links {

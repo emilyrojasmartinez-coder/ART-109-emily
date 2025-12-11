@@ -53,11 +53,14 @@
  }
 
  /* Logo styling */
- .logo a {
-     color: #fff;
-     text-decoration: none;
-     font-size: 24px;
- }
+.logo a img {
+    height: 80px;      /* or whatever size you like */
+    width: auto;
+    display: block;
+    padding: 0;        /* override global img padding */
+    max-width: none;   /* optional: ignore global max-width */
+}
+
 
  /* Navigation links styling */
  .nav-links {
