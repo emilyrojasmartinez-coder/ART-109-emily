@@ -18,7 +18,7 @@ html, body {
   background-color: #BBB6A5;
 }
 main {
-    max-width: 1250px;
+    max-width: 1650px;
     margin: 80px auto;
     padding: 80px;
 }
@@ -50,6 +50,7 @@ p {
     font-family: "Kedebideri", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 20px;
     padding: 4px;
 }
 
@@ -223,7 +224,7 @@ iframe {
  }
 
  .project-item img{
-     width: 400px;
+     width: 550px;
      padding: 10px;
      height: auto;
  }

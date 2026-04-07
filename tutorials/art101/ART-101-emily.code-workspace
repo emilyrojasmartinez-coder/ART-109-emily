@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "ART-101-emily",
+			"path": ".."
+		},
+		{
+			"name": "p5_source_s26",
+			"path": "../../../../Desktop/p5_source_s26"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ART-101-emily"
+	}
+}
