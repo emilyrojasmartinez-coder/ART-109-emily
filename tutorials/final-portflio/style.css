@@ -224,11 +224,14 @@ iframe {
  }
 
  .project-item img{
-     width: 550px;
+     width: 500px;
      padding: 10px;
      height: auto;
  }
-
+/*.photo {
+    width: 100%;
+    height: auto;
+}*/
  @media screen and (min-width:860px) {
      .project-item {
          display: flow-root;
